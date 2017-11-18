@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Aviva Test AEM Project Content Package</comment>
+<entry key="createdBy">raytec</entry>
+<entry key="name">aviva-test.ui.apps</entry>
+<entry key="created">2017-08-31T13:08:51.245+0530</entry>
+<entry key="groupId">com.avivatest</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">my-packages</entry>
+<entry key="description">Maven Multimodule project for Aviva Test AEM Project.</entry>
+<entry key="artifactId">aviva-test.ui.apps</entry>
+<entry key="path">/etc/packages/my-packages/aviva-test.ui.apps.zip</entry>
+</properties>

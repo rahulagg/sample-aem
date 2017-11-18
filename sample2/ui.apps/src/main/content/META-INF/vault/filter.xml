@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aviva-test-aem-project"/>
+
+
+
+    <filter root="/etc/clientlibs/aviva-test-aem-project"/>
+
+
+    <filter root="/etc/designs/aviva-test">
+        <include pattern="/etc/designs/aviva-test/jcr:content"/>
+
+    </filter>
+
+</workspaceFilter>

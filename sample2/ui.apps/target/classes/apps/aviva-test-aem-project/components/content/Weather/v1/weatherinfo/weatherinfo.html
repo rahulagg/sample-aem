@@ -1,0 +1,29 @@
+<sly data-sly-test="${wcmmode.edit}" > Author: Weather Info </sly>
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories='aviva-test-aem-project.main'}"/>
+
+<sly data-sly-use.weatherinfo ="com.avivatest.demo.models.WeatherInformation" />
+
+			<div class="weather-container">
+                <h2>${weatherinfo.heading}</h2>
+                </div>
+			<form name="signup" id="signup">
+                <input type="city" id="city" name="coty" value="${weatherinfo.inputLabel}" />
+            <div>
+                <input type="button" value="${weatherinfo.buttonLabel}"  name="submit" id="submit" value="Submit">
+            </div>
+      </form>
+
+        <div class="result-section">
+        <h3>${weatherinfo.resultLabel}</h3>
+        <div class="results">
+            <p class="cityname"></p>
+            <p class="localtime"></p>
+            <p class="temp"></p>
+            <p class="tempf"></p>
+            </div>
+        </div>
+
+
+    </sly>

@@ -1,0 +1,4 @@
+com/avivatest/demo/servlet/WeatherInfoServlet.class
+com/avivatest/demo/models/WeatherInformation.class
+com/avivatest/demo/service/GetWeatherInfoService.class
+com/avivatest/demo/service/impl/GetWeatherInfoServiceImpl.class
